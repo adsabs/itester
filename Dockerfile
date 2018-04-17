@@ -5,7 +5,7 @@
 FROM phusion/baseimage:0.9.22
 
 RUN apt-get update --fix-missing
-RUN apt-get install -y vim curl nmap postgresql-client redis-tools dnsutils mtr inetutils-traceroute net-tools telnet iputils-ping mongodb-clients parallel
+RUN apt-get install -y vim curl nmap postgresql-client redis-tools dnsutils mtr inetutils-traceroute net-tools telnet iputils-ping mongodb-clients parallel bonnie++
 
 RUN echo "test6"
 
